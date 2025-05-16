@@ -16,3 +16,16 @@ linked the Patients app URLs to the main project’s urls.py
 Used the command python manage.py migrate to apply database migrations
    
 # Health
+
+TEMPLATE CREATION
+Created a folder inside the app named templates
+Created an HTML file: home.html
+Created a view function in views.py
+Added a URL path in urls.py
+
+FIELDS CREATION in models.py
+Opened Patients/models.py and created modelS
+ran this python manage.py makemigrations analyzes the changes made to the models.py file and generates migration files
+ran this python manage.py migrate  creates database tables based on the models in models.py
+
+
